@@ -14,7 +14,7 @@ public class CheatParser : MonoBehaviour
             for (int i = 0; i < cheats.Length; i++)
 	    {
 	        if (cheats[i].StartsWith(cheatString)) possibleCheats += 1;
-		if (i == cheats.Length - 1) if (possibleCheats == 0) cheatString = cheatString[cheatString.Length - 1].ToString();
+		if (i == cheats.Length - 1 && possibleCheats == 0) cheatString = cheatString[cheatString.Length - 1].ToString();
 	    }
 	    
 	    switch(cheatString)
