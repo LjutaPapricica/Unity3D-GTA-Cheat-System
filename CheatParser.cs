@@ -21,15 +21,15 @@ public class CheatParser : MonoBehaviour
 	    {
 	        case "secret":
 		    Debug.Log("Secret Cheat");
-		    cheatString = null;
+		    cheatString = string.Empty;
 		    break;
 		case "abcd":
 		    Debug.Log("Alphabet Cheat");
-		    cheatString = null;
+		    cheatString = string.Empty;
 		    break;
 		case "space cheat":
 		    Debug.Log("Cheat With Space");
-		    cheatString = null;
+		    cheatString = string.Empty;
 		    break;
 	    }
         }
