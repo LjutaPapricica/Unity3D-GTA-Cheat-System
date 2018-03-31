@@ -3,7 +3,9 @@ using UnityEngine;
 public class CheatParser : MonoBehaviour
 {
     string cheatString;
-    string[] cheats = { "secret", "abcd", "space cheat" };    //Add your cheats here
+    string[] cheats = { "secret",
+                        "abcd",
+			"space cheat" };    //Add your cheats here
     
     void Update()
     {
